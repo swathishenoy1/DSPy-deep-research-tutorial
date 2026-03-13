@@ -4,14 +4,11 @@ Instead of manually chaining prompts, DSPy allows developers to define structure
 
 For this experiment:
 
-The same DSPy pipeline was executed using Gemini models and OpenAI models
-
-Outputs from both runs were collected and compared.
+1) The same DSPy pipeline was executed using Gemini models and OpenAI models (predict.py shows use of Gemini and react.py, clarifier.py and Workflow use OpenAI). Refer to https://docs.litellm.ai/docs/providers for other providers.
+2) Outputs from both runs were collected and compared.
 
 This helps illustrate:
 
-Differences in reasoning patterns across models
-
-How structured LLM workflows behave across providers
-
-The potential benefits of programmatic LLM pipelines
+- Differences in reasoning patterns across models
+-How structured LLM workflows behave across providers
+-The potential benefits of programmatic LLM pipelines

@@ -2,16 +2,16 @@ import os
 
 import dspy
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY is not set. Add it to your environment")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise ValueError("OPENAI_API_KEY is not set. Add it to your environment")
 
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 if not TAVILY_API_KEY:
     raise ValueError("TAVILY_API_KEY is not set. Add it to your environment or .env file.")
 
 # LLM config
-LM_MODEL = "gemini/gemini-2.5-flash"
+LM_MODEL = "openai/gpt-5"
 LM_MAX_TOKENS = 64000
 
 # Budgets
@@ -33,6 +33,6 @@ RESEARCH_REQUEST = (
 
 
 def configure_dspy() -> dspy.LM:
-    lm = dspy.LM(LM_MODEL, api_key=GEMINI_API_KEY, max_tokens=LM_MAX_TOKENS)
+    lm = dspy.LM(LM_MODEL, api_key=OPENAI_API_KEY, max_tokens=LM_MAX_TOKENS)
     dspy.configure(lm=lm)
     return lm
