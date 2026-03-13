@@ -1,4 +1,4 @@
-Deep Research Pipeline using DSPy
+Deep Research Pipeline using DSPy: Source: https://www.cmpnd.ai/blog/learn-dspy-deep-research.html
 
 Instead of manually chaining prompts, DSPy allows developers to define structured pipelines that can be optimized and compiled.
 
