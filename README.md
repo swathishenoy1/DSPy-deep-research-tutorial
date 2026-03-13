@@ -12,3 +12,5 @@ This helps illustrate:
 - Differences in reasoning patterns across models
 -How structured LLM workflows behave across providers
 -The potential benefits of programmatic LLM pipelines
+
+TODO: Add csv on comparison between outputs of different models. 
