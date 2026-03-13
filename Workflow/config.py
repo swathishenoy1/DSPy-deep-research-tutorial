@@ -23,8 +23,8 @@ BUDGETS = {
 DEFAULT_BUDGET = "medium"
 
 # Output destinations (set to None to disable)
-ARTIFACT_OUTPUT = "output/Gemini/research_artifact.json"
-REPORT_OUTPUT = "output/Gemini/workflow.txt"
+ARTIFACT_OUTPUT = "output/GPT-5/research_artifact.json"
+REPORT_OUTPUT = "output/GPT-5/workflow.txt"
 
 # Default research request
 RESEARCH_REQUEST = (
