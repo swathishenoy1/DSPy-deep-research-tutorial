@@ -20,7 +20,7 @@ The same DSPy pipeline was executed using two different model providers:
 Implementation details:
 
 - `predict.py` uses Gemini
-- `react.py`, `clarifier.py`, and `workflow.py` use OpenAI
+- `react.py`, `clarifier.py`, and files inside `Workflow` folder use OpenAI
 
 The pipeline structure remains the same, allowing us to compare how different models perform within the same workflow.
 
