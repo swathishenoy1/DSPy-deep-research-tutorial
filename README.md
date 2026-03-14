@@ -41,13 +41,10 @@ This project aims to explore:
 
 The deep research pipeline follows a structured workflow:
 
-User Query
-   ↓
-Clarification / Question Refinement
-   ↓
-Research & Reasoning
-   ↓
-Structured Response Generation
+1. User Query
+2. Clarification / Question Refinement
+3. Research & Reasoning
+4. Structured Response Generation
 
 Each stage is implemented as a DSPy module, enabling modular experimentation and easier optimization.
 
